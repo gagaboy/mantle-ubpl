@@ -1,0 +1,15 @@
+h1. 在线零售公司的案例
+
+有人决定出售产品。 [产品营销人员维护产品信息|Product Marketer Maintains Product Information]. [买家创建采购订单|Buyer Places Purchase Order]. [营销人员维护一般网站内容|Marketer Maintains General Site Content].
+
+需要新的库存时 [买家创建采购订单|Buyer Places Purchase Order]. 当到达出货  [装运接收方收货|Shipment Receiver Receives Shipment], 然后 [库存移动器放好库存|Inventory Mover Puts Away Inventory].
+
+[客户发现产品|Customer Finds Product]. [客户将产品添加到购物车|Placing Customer Adds Product to Cart] 并且 [顾客建立一个销售订单（在线支付）|Placing Customer Places a Sales Order (Online Checkout)]. 另外 [顾客建立一个销售订单（通过客服）|Placing Customer Places a Sales Order (Through CSR)] or [顾客建立一个销售的订单（通过易趣）|Placing Customer Places a Sales Order (Through EBay)].
+
+如果在结帐时有其他需要或其他原因， [客户创建和编辑帐户（配置文件）|Customer Creates and Edits Account (Profile)]. 如预期的 [顾客复核订单历史和状态|Customer Reviews Order History and Status]. 如果客户决定, [顾客取消订单|Customer Cancels Order].
+
+一旦订单准备就绪 [公司批准销售订单|Company Approves Sales Order].
+
+当采购地点的库存不足时 [仓库搬运人员进行库存移动|Inventory Mover does Stock Move]. [公司满足销售订单|Company Fulfills Sales Order]. [会计人员邮寄发票接受汇款|Accountant Sends Invoice and Receives Payment]. 有时候会出现特殊情况, 比如 [邮递员没有将货物投寄给顾客|Carrier Does Not Deliver Shipment to Customer] 并且 [邮递员将没有送达的货物返回公司|Carrier Returns Undeliverable Shipment to Company].
+
+[顾客退回产品|Customer Returns Product]. [公司处理退回产品|Company Processes Return Received].

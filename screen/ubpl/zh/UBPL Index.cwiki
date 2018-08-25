@@ -1,0 +1,85 @@
+
+h2. [UBPL 介绍|UBPL Introduction]
+
+h2. [行为定义|Actor Definitions]
+
+h2. 通常的商业处理举例
+
+* 市场营销
+** [产品的市场营销人员维护产品信息|Product Marketer Maintains Product Information]
+** [市场营销人员维护通常的地址信息|Marketer Maintains General Site Content]
+** 有关产品市场的学习
+** 广告
+** 顾客追踪
+
+* 取得支付的库存需求
+** 销售前景
+** 存货等级监控
+** [购买者建立购买订单|Buyer Places Purchase Order]
+** [会计人员接收发票并且付款|Accountant Receives Invoice and Sends Payment]
+** [装货人员收货|Shipment Receiver Receives Shipment]
+** [库存搬运人员减少库存|Inventory Mover Puts Away Inventory]
+** [货运人员接收货物并打包但是没有采购订单|Shipment Receiver Receives Shipment with Packing Slip but No PO]
+
+
+* 订购的机会
+** 有销售代表的方式
+*** [销售人员有代表性的寻找潜在顾客和销售机会|Sales Representative Seeks Prospects and Opportunities]
+*** [销售人员引导潜在客户从要求报价到确认订单|Sales Representative Leads Prospects from RFQ to Sales Order]
+*** [顾客从购物车中获得报价|Customer Requests Quote from Cart]
+*** [顾客从报价确认订单|Customer Places Order for Quote]
+
+** 顾客直接购买的方式
+*** [顾客查找产品|Customer Finds Product]
+*** [顾客将产品加入购物车|Placing Customer Adds Product to Cart]
+*** [顾客创建和编辑账户（概要）|Customer Creates and Edits Account (Profile)]
+*** [顾客建立一个销售订单（通过客服）|Placing Customer Places a Sales Order (Through CSR)]
+*** [顾客建立一个销售订单（在线支付）|Placing Customer Places a Sales Order (Online Checkout)]
+*** [顾客建立一个销售的订单（通过易趣）|Placing Customer Places a Sales Order (Through EBay)]
+*** [顾客复核订单历史和状态|Customer Reviews Order History and Status]
+*** [顾客取消订单|Customer Cancels Order]
+
+* 订单支付
+** [公司同意销售订单|Company Approves Sales Order]
+** [公司满足销售订单|Company Fulfills Sales Order]
+** [会计人员邮寄发票接受汇款|Accountant Sends Invoice and Receives Payment]
+** [邮递员没有将货物投寄给顾客|Carrier Does Not Deliver Shipment to Customer]
+** [邮递员将没有送达的货物返回公司|Carrier Returns Undeliverable Shipment to Company]
+
+* 退货管理
+** [顾客退回产品|Customer Returns Product]
+** [公司处理退回产品|Company Processes Return Received]
+
+* 仓库管理
+** [仓库搬运人员进行库存移动|Inventory Mover does Stock Move]
+** [仓库搬运人员检查实际库存|Inventory Mover Checks Physical Inventory]
+
+* 生产
+* 财务管理
+** 预算
+** 内部财务分析（度量管理，平衡分数卡）
+** 外部报告（政府，投资者等等）
+
+* 账单
+** 财务账单
+** [银行账单|Bank Reconciliation]
+** 定期的报告
+
+* 工资的工作计划
+** 项目和任务
+** 需求
+** 时间和消费记录
+** 接收并支付商贩和工人的清单
+** 邮寄给顾客发票，并接收客户支付。
+
+h2. 特殊组织类型的例子
+* [在线零售公司的例子|Story of Online Retail Company]
+* 生产者的例子
+* 专业服务公司的例子
+* 服务提供者的例子
+* 联合服务提供者的例子
+h2. 开放应用集成规范的情景介绍
+* [从订单到支付的开放应用集成规范|OAGIS Order to Cash]
+* [从产品到支付的开放应用集成规范|OAGIS Work to Cash]
+* [从需求带库存开放应用集成规范|OAGIS Demand to Inventory]
+

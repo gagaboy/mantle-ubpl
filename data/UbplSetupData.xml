@@ -14,9 +14,10 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="seed">
     <!-- the subscreen -->
-    <moqui.screen.SubscreensItem screenLocation="component://webroot/screen/webroot/apps.xml"
-        subscreenName="ubpl" subscreenLocation="component://mantle-ubpl/screen/ubpl.xml"
-        menuTitle="Mantle - UBPL" menuIndex="20" menuInclude="Y"/>
+    <!--NOTE: subscreen configuration is now in the MoquiConf.xml file instead of DB records-->
+    <!--<moqui.screen.SubscreensItem screenLocation="component://webroot/screen/webroot/apps.xml"-->
+        <!--subscreenName="ubpl" subscreenLocation="component://mantle-ubpl/screen/ubpl.xml"-->
+        <!--menuTitle="Mantle - UBPL" menuIndex="20" menuInclude="Y"/>-->
 
     <!-- authz/permission for admin -->
     <moqui.security.ArtifactGroup artifactGroupId="MANTLE_UBPL" description="Mantle - UBPL (via root screen)"/>

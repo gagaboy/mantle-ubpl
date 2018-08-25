@@ -1,0 +1,103 @@
+h1. 通用资源
+
+h2. UBL
+
+h3. 通用信息
+
+网站: http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl
+
+当前版本: 2.0
+
+详细信息文档: http://docs.oasis-open.org/ubl/os-UBL-2.0.zip
+
+h3. 执行部分的标准
+
+h3. 相关数据模型
+
+h2. OAGIS
+
+h3. 通用信息
+
+OAGIS 是一个标准的开放应用程序组.
+
+网站: http://www.oagi.org/
+
+当前版本: 9.3
+
+h3. 执行部分的标准
+
+h3. 相关数据模型
+
+h3. 从Ofbiz复用
+
+以下信息是在专用/ OAGIS组件实现：
+
+# 确认 BOD(业务对象文档) (发送和接收)
+# 过程装运（发送）
+# 收货（送）
+# 同步库存（接收）
+# 显示发货（接收）
+# 确认交货（接收），PO，RMA，状态的变化
+
+在 specialpurpose/oagis/servicedef/services.xml 文件有一个为这种组件定义的服务
+
+请注意，这些实施对应旧版本的OAGIS：7.2.1
+
+h2. XBRL(Extensible Business Reporting Language)
+
+h3. 通用信息
+
+这里的通用想法是，不是创建PDF或其他报告（或除了基本的PDF报告之外），我们可以将其用作财务报告的标准化结构。 多年来，我已经阅读过XBRL，从过去几年可以看出，它已经在大型和小型企业中普遍使用，用于内部报告，并向世界许多地方的政府机构报告， 与合作伙伴共享财务信息（更多的会计师事务所，比如供应商或客户，只是为了澄清）。
+
+这将是一件伟大的事情，倾向于这些标准将会对我们的会计部分产生一些影响。我认为，会计包中出现的数字是最重要的事情，所以基于这样的标准，这使我们向大型和小型潜在用户组织迈出了巨大的一步。
+有关XML文档结构等的技术信息，请参见XBRL 2.1的第一部分：
+http://www.xbrl.org/SpecRecommendations/
+
+h3. 部分实施标准
+
+XBRL是一种财务数据的文件结构，在其上定义了多种分类法。 这些分类法是每个报告中应包括哪些内容的真实规范。
+
+对于离我们最近的未来用户来说，有三种方法是很好的：
+
+1.(国际财务报告准则)IFRS-GP 2006：国际财务报告准则利润导向实体的通用财务报告
+http://xbrl.iasb.org/int/fr/ifrs/gp/2006-08-15/summary_page.html
+
+2.(美国通用会计准则)US-GAAP-CI：美国普遍接受的商业和工业会计准则
+http://www.xbrl.org/us/fr/gaap/ci/2005-02-28/us-gaap-ci%20Summary%20Page.htm
+
+3. XBRL GL: 总账分类
+http://www.xbrl.org/GLTaxonomy/
+
+前两个更适用于报告，实际上可以交付给政府和其他机构，并在内部使用工具进行可视化等。 第三个将允许我们以标准方式出口财务信息，然后将其与来自其他系统的财务信息结合起来进行报告。 对于大型组织而言，这可能是让系统运行所有责任的关键，然后以标准方式导出财务数据，以便公司可以使用XBRL兼容工具将其与来自其他系统的信息相结合。
+
+有关财务报告分类的更通用的列表，请点击此处：
+http://www.xbrl.org/FRTaxonomies/
+
+h3. 相关数据模型
+
+h1. 集成导向标准
+
+h3. UBL 2.0业务流程
+
+这是一个重要的因素，因为如果我们要实现一个集成标准，这是一个很大的考虑（即UBL 2.0），OAGIS是另一个标准。
+
+本文档有很多图表和定义非常有帮助。
+
+http://docs.oasis-open.org/ubl/os-UBL-2.0/UBL-2.0.html#BUSINESSPROCESSES
+
+在同一文档中，过程通信文档的模式列表也是有帮助的：
+
+http://docs.oasis-open.org/ubl/os-UBL-2.0/UBL-2.0.html#SCHEMAS
+
+h3. ebXML通用业务流程目录
+
+即使从2001年开始有点旧，但仍然有用，并且包括许多不同标准规范中的相关流程列表。 这是一个很大的文档，具有很长的列表。
+
+http://www.ebxml.org/specs/bpPROC.pdf
+
+h3. UBL 1.0 ebBP 2.0业务流程定义
+
+这与UBL 1.0更相关，但是最近（从2006年开始）并且很有用。 这是简练的。
+
+http://docs.oasis-open.org/ubl/cs-UBL-1.0-SBS-1.0/universal-business-process-1.0-ebBP/
+
